@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[PlayersWallet]
+(
+	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
+    [PlayerId] UNIQUEIDENTIFIER NOT NULL FOREIGN KEY (PlayerId) REFERENCES Players(id), 
+    [Balance] DECIMAL NULL
+)
