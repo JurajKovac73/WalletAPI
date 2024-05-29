@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WalletAPI", "WalletAPI.csproj", "{F08C83E6-05FF-489D-97B2-0EA344345A9D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetBalanceServiceApi", "..\GetBalanceServiceApi\GetBalanceServiceApi.csproj", "{549320A8-6C7C-4894-B829-5B5F9C282C65}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "WalletDatabase", "..\WalletDatabase\WalletDatabase.sqlproj", "{86916772-0258-4337-AECC-4E526D1AB611}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F08C83E6-05FF-489D-97B2-0EA344345A9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F08C83E6-05FF-489D-97B2-0EA344345A9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F08C83E6-05FF-489D-97B2-0EA344345A9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F08C83E6-05FF-489D-97B2-0EA344345A9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{549320A8-6C7C-4894-B829-5B5F9C282C65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{549320A8-6C7C-4894-B829-5B5F9C282C65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{549320A8-6C7C-4894-B829-5B5F9C282C65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{549320A8-6C7C-4894-B829-5B5F9C282C65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86916772-0258-4337-AECC-4E526D1AB611}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86916772-0258-4337-AECC-4E526D1AB611}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86916772-0258-4337-AECC-4E526D1AB611}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{86916772-0258-4337-AECC-4E526D1AB611}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86916772-0258-4337-AECC-4E526D1AB611}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86916772-0258-4337-AECC-4E526D1AB611}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E58D549C-EA04-48D7-A973-2B10DC85EC54}
+	EndGlobalSection
+EndGlobal
